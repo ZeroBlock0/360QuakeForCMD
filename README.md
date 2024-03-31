@@ -1,0 +1,2 @@
+# 360QuakeForCMD
+使用360QuakeAPI在命令行中完成检索

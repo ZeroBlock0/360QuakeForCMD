@@ -1,6 +1,8 @@
 # 360QuakeForCMD
 使用360QuakeAPI在命令行中完成检索
 
-# How To Use
+# Install Python module
 pip install argparse requests json prettytable pandas openpyxl
-Enter your 360Quake API in 360QuakeForCMD.py line136
+
+# Enter Your API
+Enter your 360Quake API in 360QuakeForCMD.py line13

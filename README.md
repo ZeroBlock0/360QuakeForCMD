@@ -9,4 +9,4 @@ pip install argparse requests json prettytable pandas openpyxl
 
 # 更新日志
 Ver1.0 基本功能实现  
-Ver1.1 加入导出为Excel的选项
+Ver1.1 更名为360QuakeForCMD，加入导出为Excel的选项

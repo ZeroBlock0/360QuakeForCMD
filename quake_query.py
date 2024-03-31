@@ -82,7 +82,7 @@ class QuakeQuery:
 
         group = parser.add_mutually_exclusive_group()
         group.add_argument("--version", "-V", action="version",
-                           version=f"| %(prog)s v1.0|")
+                           version=f"| %(prog)s v1.0,Please Update!|")
 
         parser.add_argument("--search", "-S", help="搜索关键词", type=str)
         parser.add_argument("--size", help="显示结果数量（默认为100）", default=100)
@@ -103,5 +103,5 @@ class QuakeQuery:
             print("\nUsage: quake_query.py -h, --help 查看帮助信息并退出")
 
 if __name__ == '__main__':
-    # 作者：dreamhax
+    # 作者：dreamhax #有新版本，请尽快更新
     QuakeQuery("YOUR_QUAKE_API").main()
